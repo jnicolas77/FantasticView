@@ -10,8 +10,8 @@ Pod::Spec.new do |spec|
 
   
   spec.name         = "FantasticView"
-  spec.version      = "0.1.1"
-  spec.summary      = "A short description of FantasticView."
+  spec.version      = "0.1.2"
+  spec.summary      = "Pod test 5"
   
   spec.description  = <<-DESC
 This fantastic view changes its color gradually makes your app look fantastic!
@@ -22,14 +22,16 @@ This fantastic view changes its color gradually makes your app look fantastic!
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   
 
-  spec.author             = { "Julio Nicolas" => "jnicolas.marcos@gmail.com" }
+  spec.author        = { "Julio Nicolas" => "jnicolas.marcos@gmail.com" }
   
   spec.source       = { :git => "https://github.com/jnicolas77/FantasticView.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "FantasticView/FantasticView/*.{swift,plist}"
+  spec.source_files  = 'FantasticView/FantasticView.swift'
   spec.exclude_files = "Classes/Exclude"
 
   spec.ios.deployment_target = '10.0'
+
+  spec.swift_version = "4.2"
   
 
 end
