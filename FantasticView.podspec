@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
   
   spec.name         = "FantasticView"
-  spec.version      = "0.1.2"
+  spec.version      = "0.1.3"
   spec.summary      = "Pod test 5"
   
   spec.description  = <<-DESC
